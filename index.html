@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokeday</title>
+    <script src="./js/setup.js"></script>
+    <script src="./js/main.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body onload="getPokeNames()" class="row">
+    <header>
+        <img class="logo" src="" alt="">
+        <form class="container">
+            <div>
+                <i class="fas fa-search"></i>
+            </div>
+            <input type="text" name="search" id="search-input" placeholder="Search your Pokemon...">
+        </form>
+        <div class="filter-button container">
+            <i class="fas fa-filter"></i>
+            <span>Filter</span>
+        </div>
+    </header>
+    <main>
+        <div id="pokemon-list-container">
+            
+        </div>
+    </main>
+</body>
+</html>
